@@ -1,0 +1,5 @@
+{
+  "name": "EcoScan AI - ESG Report Analyzer",
+  "description": "An AI-powered tool to instantly analyze ESG reports (PDF) and extract key Greenhouse Gas (GHG) data, assurance status, and reduction targets.",
+  "requestFramePermissions": []
+}
