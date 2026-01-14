@@ -1,3 +1,4 @@
+# Trigger deployment with fixed action name
 name: Deploy to GitHub Pages
 
 on:
