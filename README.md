@@ -39,7 +39,7 @@
 
    Create a `.env` file in the root directory and add your API key:
    ```env
-   VITE_GEMINI_API_KEY=your_key_here
+   VITE_AI_API_KEY=your_key_here
    # Optional: override the default model
    VITE_MODEL_ID=your_model_id
    ```

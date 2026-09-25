@@ -110,7 +110,7 @@ const App: React.FC = () => {
           
           <div className="flex items-center gap-3 relative" ref={historyRef}>
             <div className="text-xs font-medium text-slate-400 bg-slate-100 px-3 py-1 rounded-full hidden sm:block">
-              Powered by Gemini 2.0
+              Powered by AI
             </div>
 
             <button 
