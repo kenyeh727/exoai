@@ -92,7 +92,7 @@ const analysisSchema: Schema = {
 export const analyzeEsgReport = async (base64Pdf: string): Promise<AnalysisResult> => {
   try {
     const base64Data = base64Pdf.replace(/^data:application\/pdf;base64,/, "");
-    const modelId = "gemini-3-flash-preview";
+    const modelId = process.env.MODEL_ID || "gemini-3-flash-preview";
 
     const prompt = `
       你是一位專業的溫室氣體盤查稽核員。請分析這份 PDF，提取**精確**的盤查數據。
